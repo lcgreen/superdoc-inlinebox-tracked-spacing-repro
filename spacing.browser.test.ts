@@ -2,7 +2,7 @@ import { it, expect } from "vitest";
 import { page } from "vitest/browser";
 import url from "./synthetic.docx?url";
 import "superdoc/style.layered.css";
-for (const version of ["installed version"]) {
+for (const version of ["2.24.0"]) {
 	it(`${version}: an insertion gap must follow the insertion despite earlier deleted text`, async () => {
 		const host = document.createElement("div");
 		host.style.cssText = "width:900px;height:500px";
