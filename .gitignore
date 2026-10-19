@@ -1,0 +1,4 @@
+node_modules/
+.vite/
+__screenshots__/
+synthetic-gap.png
