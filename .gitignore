@@ -3,3 +3,5 @@ node_modules/
 __screenshots__/
 synthetic-gap.png
 .vitest-attachments/
+margin-before.png
+margin-after.png

@@ -2,7 +2,9 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"test": "vitest run"
+		"test": "vitest run",
+		"test:overflow": "vitest run margin-overflow.browser.test.ts",
+		"test:spacing": "vitest run spacing.browser.test.ts"
 	},
 	"dependencies": {
 		"superdoc": "2.24.0"
